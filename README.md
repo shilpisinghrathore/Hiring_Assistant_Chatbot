@@ -24,3 +24,29 @@ TalentScout_Hiring_Assistant/
 ├── utils.py # OpenAI integration, email/phone validation
 ├── prompts.py # Prompt template for generating technical questions
 └── README.md # Project documentation
+
+## Tech Stack
+Frontend: Streamlit
+Backend: Python
+LLM: OpenAI GPT-4 (via API)
+
+## Environment Management: .env, python-dotenv
+
+## Libraries Used
+streamlit
+openai
+python-dotenv
+re (built-in for validation)
+
+
+Prompts are carefully engineered for two primary tasks:
+
+Information Collection:
+Simple, user-friendly forms to gather structured candidate data.
+Technical Question Generation:
+Based on the candidate’s specified tech stack, prompts like:
+
+Generate 3 technical interview questions for a candidate with 2+ years of experience in Python.
+Responses are parsed and displayed sequentially.
+
+The design ensures prompt clarity, context preservation, and role-appropriate outputs.
