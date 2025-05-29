@@ -39,7 +39,7 @@ python-dotenv
 re (built-in for validation)
 
 
-Prompts are carefully engineered for two primary tasks:
+# Prompts are carefully engineered for two primary tasks:
 
 Information Collection:
 Simple, user-friendly forms to gather structured candidate data.
